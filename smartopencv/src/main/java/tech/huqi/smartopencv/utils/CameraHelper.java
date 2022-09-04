@@ -77,6 +77,8 @@ public class CameraHelper {
         Camera.CameraInfo info = new Camera.CameraInfo();
         Camera.getCameraInfo(cameraId, info);
         return info.orientation;
+        //FIXME some bug here???
+        //return 0;
     }
 
     public static Bitmap scaleImage(Bitmap image, int desireWidth, int desireHeight) {

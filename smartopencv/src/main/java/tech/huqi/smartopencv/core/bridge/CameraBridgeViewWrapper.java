@@ -119,8 +119,9 @@ public abstract class CameraBridgeViewWrapper implements ICameraViewBridge, ICam
             Canvas canvas = mSurfaceHolder.lockCanvas();
             if (canvas != null) {
                 canvas.drawColor(0, android.graphics.PorterDuff.Mode.CLEAR);
-                if (BuildConfig.DEBUG)
-                    Log.d(TAG, "mStretch value: " + mScale);
+                //Too many log
+                //if (BuildConfig.DEBUG)
+                //    Log.d(TAG, "mStretch value: " + mScale);
 
                 if (mBase instanceof ICameraView) {
                     ((ICameraView) mBase).drawBitmap(canvas, mCacheBitmap);
