@@ -1,4 +1,7 @@
 # SmartOpenCV
+小改适配android11和外置usb摄像头。
+
+Small change to adapt to android11 system and external usb camera.
 
 ![SmartOpenCV](art/logo.png)  
 ### 前言
